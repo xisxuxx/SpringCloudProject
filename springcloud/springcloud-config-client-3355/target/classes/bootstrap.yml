@@ -1,0 +1,8 @@
+#系统级配置
+spring:
+  cloud:
+    config:
+      name: config-client #从git上读取资源名称
+      profile: test
+      label: master
+      uri: http://localhost:3344
